@@ -66,8 +66,8 @@ void slau(const vector<double>& F, const vector<double>& v, double& c, double& e
     e = -coefficients[0];
     c = exp(coefficients[1]);
 
-    cout << "Коэффициент c: " << c << endl;
-    cout << "Коэффициент e: " << e << endl;
+    cout << " c: " << c << endl;
+    cout << " e: " << e << endl;
 }
 
 int main()
